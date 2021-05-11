@@ -1,0 +1,711 @@
+body {
+   
+    background-color: rgb(133, 190, 216)
+    
+}
+
+h1.titulo {
+    position: relative;
+    margin-left: 80px;
+    bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/*  ------------------------ Página principal ------------------------ */
+
+.fotoheader{
+
+    position: relative;
+    bottom: 150px;
+    left: 5px;
+}
+
+/* Estos siguientes estilos, corresponden con los botones de navegacion de los diferentes apartados de mi pagina principal */
+.botoncomunidad {   
+
+    box-shadow: 0 6px 8px 0 rgba(253, 253, 253, 0.568);
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    background: linear-gradient(to bottom ,rgb(133, 190, 216), rgb(238, 195, 195));
+    margin: 0;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 15px;
+    
+}
+
+
+.comunidades {
+    
+    position: relative;
+    bottom: 280px;
+    padding-left: 10px;
+    left: 8px;
+      
+}
+
+button.botoncomunidad{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px;
+
+}
+
+button.botoncomunidad:hover{
+
+    cursor:pointer;
+    
+
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+/* Formato para el 1º texto, debajo del video */
+.primertexto {
+    
+    color: rgba(19, 7, 189, 0.801);
+    width: 31%;
+    border-radius: 30px;
+    text-align:auto;
+    border-style:solid;
+    background: linear-gradient(to bottom right, rgb(133, 190, 216), rgb(255, 255, 255));
+    position: relative;
+    bottom: 280px;
+    display: flex; flex-direction: row;
+    padding-left: 10px;
+
+}
+
+/* Texto pagina principal */
+.texto2 {
+
+    color: rgba(19, 7, 189, 0.801);
+    background: linear-gradient(to bottom right, rgb(133, 190, 216), rgb(255, 255, 255));
+    border-style: none;
+    border-radius: 30px;
+    width: 31%;
+    height: 150px;
+    position: absolute;
+    top: 650px;
+    left: 20px;
+    padding-left: 10px;
+}
+
+/* Lista del div de la página principal */
+ul.lista1 {
+
+    display: block;
+    list-style-type: square;
+    
+    
+
+}
+
+/* Separa más los ítems de la lista de la página principal y en negrita. */
+li {padding-bottom: 5px;font-weight: bold;}
+
+
+/* parrafo sobre la peninsula en la pagina principal */
+.p1 {
+
+    
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    bottom: 700px;
+    padding-left: 7px;
+    background: linear-gradient(to bottom right, rgb(133, 190, 216), rgb(255, 255, 255));
+    border-style: none;
+    border-radius: 30px;
+}
+
+/* Los siguientes estilos corresponden con los 3 apartados de la pagina principal. */
+.p1 h2{
+
+    text-align: center;
+    
+
+}
+
+.imgp1 {
+
+    
+    position: absolute;
+    border-radius: 50px;
+    left: 300px;
+}
+
+.imgp1 img {
+
+    position: relative;
+    float: right;
+    bottom: 165px;
+    left: 350px;
+    border-radius: 50px;
+}
+
+
+/* parrafo sobre las I.Baleares en la pagina principal */
+.p2 {
+
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    bottom: 400px;
+    padding-left: 7px;
+    background: linear-gradient(to bottom right, rgb(133, 190, 216), rgb(255, 255, 255));
+    border-style: none;
+    border-radius: 30px;
+}
+
+.p2 h2{
+
+    text-align: center;
+    
+
+}
+
+.imgp2 img {
+
+    position: relative;
+    float: right;
+    bottom: 165px;
+    left: 340px;
+    border-radius: 50px;
+}
+
+.p3 {
+
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    bottom: 150px;
+    padding-left: 7px;
+    background: linear-gradient(to bottom right, rgb(133, 190, 216), rgb(255, 255, 255));
+    border-style: none;
+    border-radius: 30px;
+}
+
+.imgp3 img {
+
+    position: relative;
+    float: right;
+    bottom: 165px;
+    left: 340px;
+    border-radius: 50px;
+}
+
+.p3 h2{
+
+    text-align: center;
+    
+
+}
+/* Hasta aquí la página principal */
+
+/* ------------------------PAGINA PENÍNSULA------------------------*/
+
+
+.botoncomunidad1{
+
+    box-shadow: 0 6px 8px 0 rgba(253, 253, 253, 0.568);
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    background: linear-gradient(to bottom ,rgb(133, 190, 216), rgb(238, 195, 195));
+    margin: 0;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 15px;
+    width: 550px;
+    height: 70px;
+    position: absolute;
+    left: 15px;
+    
+}
+
+/* primer texto de la 2º pagina */
+.presentacionp2{
+    color: rgba(19, 7, 189, 0.801);
+    width: 33%;
+    border-radius: 30px;
+    text-align:auto;
+    border-style:solid;
+    background: linear-gradient(to bottom right, rgb(133, 190, 216), rgb(255, 255, 255));
+    position: relative;
+    bottom: 100px;
+    display: flex; flex-direction: row;
+    padding-left: 10px;
+    margin-left: 20px;
+
+}
+
+/* A partir de aqui son los estilos de las diferentes fotos y texto que aparecen en la 2ºpagina */
+.catedrales {
+
+    border-color: black;
+    color: rgba(19, 7, 189, 0.801);;
+    border-style: solid;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 660px;
+    left: 700px;
+    
+
+}
+
+.catedrales img {
+    border-radius: 12px;
+}
+
+.islascies {
+
+    border-color: black;
+    color: rgba(19, 7, 189, 0.801);;
+    border-style: solid;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 660px;
+    left: 1200px;
+
+}
+
+.islascies img {
+    border-radius: 12px;
+}
+
+.sanfermines {
+
+    border-color: black;
+    color: rgba(19, 7, 189, 0.801);;
+    margin-top: 100px;
+    border-style: solid;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    right: 500px;
+    bottom: 50px;
+    
+
+}
+
+.sanfermines img {
+    border-radius: 12px;
+}
+
+.alhambra {
+
+    border-color: black;
+    color: rgba(19, 7, 189, 0.801);;
+    border-style: solid;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 310px;
+
+}
+
+.alhambra img {
+    border-radius: 12px;
+
+}
+
+
+/* ------------------------PAGINA ISLAS BALEARES------------------------ */
+
+.botoncomunidad2{
+
+    box-shadow: 0 6px 8px 0 rgba(253, 253, 253, 0.568);
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    background: linear-gradient(to bottom ,rgb(133, 190, 216), rgb(238, 195, 195));
+    margin: 0;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 15px;
+    width: 550px;
+    height: 70px;
+    position: absolute;
+    left: 15px;
+}
+
+/* alinear la informacion de las filas. */
+td {
+    text-align: center;
+    
+}
+
+.textop3 {
+
+    color: rgba(19, 7, 189, 0.801);
+    width: 33%;
+    border-radius: 30px;
+    border-style:solid;
+    background: linear-gradient(to bottom right, rgb(133, 190, 216), rgb(255, 255, 255));
+    position: relative;
+    bottom: 150px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+/* A partir de aquí el estilo del div principal y los diferentes divs dentro de él, de la 3º pagina. */
+.todobaleares {
+
+    background: linear-gradient(to bottom left, rgb(133, 190, 216), rgb(211, 208, 208));
+    box-shadow: 6px 10px 12px 0 rgb(17, 8, 8);
+    border-style: none;
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    bottom: 170px;
+    left: 800px;
+    border-radius: 20px;
+    color: rgba(19, 7, 189, 0.801);
+
+}
+
+
+/* Redondea todas las esquinas de las imágenes que esten dentro de esta clase */
+.todobaleares img{border-radius: 12px;}
+/* Redondea las esquinas del video que esten dentro de esta clase */
+
+.todobaleares video {border-radius: 15px;}
+
+.todobaleares1 {
+
+    width: 350px;
+    height: 200px;
+    border-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 6px 10px 12px 0 rgb(17, 8, 8);
+
+}
+
+.todobaleares2 {
+
+    position: relative;
+    float: right;
+    bottom: 212px;
+    right: 25px;
+    width: 350px;
+    height: 200px;
+    border-style: none;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 15px;
+    box-shadow: 6px 10px 12px 0 rgb(17, 8, 8);
+    
+
+}
+
+.todobaleares3 {
+
+    position: relative;
+    float: right;
+    left: 340px;
+    top: 160px;
+    width: 350px;
+    height: 200px;
+    border-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 6px 10px 12px 0 rgb(17, 8, 8);
+
+}
+
+.textoushu {
+
+    color: rgba(19, 7, 189, 0.801);
+    width: 700px;
+    position: absolute;
+    bottom: 176px;
+    left: 850px;
+}
+
+.todobaleares4 {
+
+    position: relative;
+    bottom: 37px;
+    width: 350px;
+    height: 200px;
+    border-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+
+}
+
+
+/* ------------------------PAGINA ISLAS CANARIAS------------------------ */
+.botoncomunidad3{
+
+    box-shadow: 0 6px 8px 0 rgba(253, 253, 253, 0.568);
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    background: linear-gradient(to bottom ,rgb(133, 190, 216), rgb(238, 195, 195));
+    margin: 0;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 15px;
+    width: 550px;
+    height: 70px;
+    position: absolute;
+    left: 15px;
+}
+
+
+/* estilo de la tabla */
+
+.divtabla {
+
+    width: 700px;
+    height: 400px;
+    border-style: none;
+    position: absolute ;
+    bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.tabla {
+
+    margin-top: 11%;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tabla td, .tabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+/* este apartado hace que rellene el fondo con el color indicado, las filas unicamente pares  */
+.tabla tr:nth-child(even){background: linear-gradient(to bottom ,rgb(13, 120, 170), rgb(238, 195, 195));;}
+  
+.tabla tr:hover {background-color: #ddd;}
+  
+.tabla th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #5da55f;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.textotabla {
+
+    color: rgba(19, 7, 189, 0.801);
+    padding-left: 10px;
+    width: 100%;
+    border-style: none;
+    border-radius: 15px;
+    position: relative;
+    top: 60px;
+}
+
+.canariass {
+
+    border-style: solid;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: 75px;
+    left: 950px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: -1 ;
+    transition: 1s ;
+    background: linear-gradient(to bottom ,rgb(133, 190, 216), rgb(238, 195, 195));
+}
+
+.canariass:hover .overlay {
+    opacity: 1;
+}
+
+.textocanarias {
+    width: 100%;
+    height: 100%;
+    color: rgba(19, 7, 189, 0.801);;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.tenerife {
+
+    border-style: solid;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: 500px;
+    left: 950px;
+}
+
+.tenerife:hover .overlay {
+    opacity: 1;
+}
+
+.textoteide {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+    color: rgba(19, 7, 189, 0.801);;
+}
+
+
+/* ------------------------FORMULARIO------------------------ */
+
+/* Titulo de la pagina que contiene el formulario */
+span.Titulo2 {
+    
+    background: linear-gradient(to bottom ,rgb(133, 190, 216), rgb(238, 195, 195)); ;
+    position: relative;
+    left: 34%;
+    top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+/* Div que recoge el formulario */
+.cajacontenedora {
+
+    position: relative;
+    left: 29%;
+    height: 600px;
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    color: red;
+    font-weight: bold;
+ 
+}
+
+/* Div que recoge el formulario */
+.cajaformulario {
+    
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+/* da estilo a las cajas del formulario */
+.cajaformulario input {
+    background: linear-gradient(to bottom ,rgb(194, 0, 32), rgb(133, 190, 216));
+    height: 25px;
+    box-shadow: 6px 10px 12px 5px rgb(17, 8, 8);
+    border-radius: 15px;
+}
+
+.cajaformulario ul {padding: 15px;}
+
+#suges {
+    width: 300px;
+    height: 60px;
+}
+
+#botonenviar {
+
+    position: relative;
+    float: right;
+    right: 250px;
+    top: 20px;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* ------------------------ FOOTER ------------------------ */
+.piedepagina {
+
+    width: 99.1%;
+    height: 43px;
+    border-style: none;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.botonfooter {
+
+    height: 43px;
+    bottom: 10px;
+    background: linear-gradient(to bottom ,rgb(0, 28, 41), rgb(133, 190, 216));
+    border-radius: 20px;
+    float: right;
+    position: relative;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 0 6px 8px 0 rgba(19, 9, 9, 0.568);
+}
+
+/* Boton del footer para sugerencias sobre nuevos lugares de los que deberia hablar. */
+.botonfooter2 {
+
+    height: 43px;
+    bottom: 10px;
+    background: linear-gradient(to bottom ,rgb(0, 28, 41), rgb(133, 190, 216));
+    border-radius: 20px;
+    float: left;
+    position: relative;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 0 6px 8px 0 rgba(19, 9, 9, 0.568);
+}
+
+
+
+
+
